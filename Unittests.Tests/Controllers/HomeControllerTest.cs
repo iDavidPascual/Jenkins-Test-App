@@ -35,7 +35,7 @@ namespace Unittests.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Modificación de codigo: Your application description page.", result.ViewBag.Message);
+            Assert.AreEqual("Modificación de codigo2: Your application description page.", result.ViewBag.Message);
         }
 
         [TestMethod]
