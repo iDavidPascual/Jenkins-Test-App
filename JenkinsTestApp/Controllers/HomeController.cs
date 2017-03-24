@@ -15,7 +15,7 @@ namespace JenkinsTestApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Modificación de codigo: Your application description page.";
+            ViewBag.Message = "Modificación de codigo2: Your application description page.";
 
             return View();
         }
